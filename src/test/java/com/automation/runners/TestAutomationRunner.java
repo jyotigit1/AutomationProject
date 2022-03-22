@@ -1,3 +1,4 @@
+ 
 package com.automation.runners;
 
 import org.junit.runner.RunWith;
@@ -9,7 +10,7 @@ import io.cucumber.junit.CucumberOptions;
 @CucumberOptions(
         features="classpath:features",
         glue="com.automation.stepdefs", 
-        tags="", 
+        tags=" @SearchFunctionality ", 
         plugin = {
         	   "pretty", 
                "html:target/html/htmlreport.html",

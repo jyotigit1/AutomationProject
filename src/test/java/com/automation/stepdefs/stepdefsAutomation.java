@@ -30,7 +30,7 @@ import io.cucumber.java.en.When;
 public class stepdefsAutomation {
 	
 	 private static final Logger logger = LogManager.getLogger(stepdefsAutomation.class);
-	private static final CharSequence Product_Name = null;
+	 private static final CharSequence Product_Name = null;
 	 WebDriver driver;
 	    String base_url = "https://automationpractice.com";
 	    int implicit_wait_timeout_in_sec = 20;
